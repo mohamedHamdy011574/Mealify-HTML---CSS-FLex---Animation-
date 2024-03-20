@@ -114,6 +114,10 @@ p{
     line-height: 1.6
 }
 
+section{
+    width: 100%;
+}
+
 .sec-header{
     text-align: center;
 }
