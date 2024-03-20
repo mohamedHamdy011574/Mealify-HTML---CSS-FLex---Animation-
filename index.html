@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full stack developer portfolio">
+    <meta name="keywords" content="Mohamed, Hamdy, Portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Mohamed Hamdy">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/responsive.css" >
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    
+    <title>Mohamed Hamdy</title>
+</head>
+
+<body>
+    <!-- Start header -->
+    <header>
+        <nav id="nav-bar">
+            <h1>
+                <a href="#home" class="logo">Mealify</a>
+            </h1>
+            <input title="toggler" type="checkbox" name="toggler" id="toggler">
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#chefs" >Chefs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="dark-mode">
+                <input title="DarkMode" type="checkbox" name="DarkMode" id="DarkMode">
+                <label for="DarkMode"><i class="fa-solid fa-moon"></i></label>
+            </div>
+                <label for="toggler"><i class="fa-solid fa-bars"></i></label>
+            
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <main>
+        <!-- Start home -->
+        <section class="home-cont gray-sec" id="home">
+            <div class="container">
+                <div class="row flex">
+                    <div class="home-desc flex-col">
+                        <h2>
+                            Enjoy Your Healthy
+                            Delicious Food
+                        </h2>
+                        <p>
+                            Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.
+                        </p>
+                        <div class="btns flex">
+                            <div class="contact-btn">
+                                <a href="#contact">Book a Table</a>
+                            </div>
+                            <div  class="watch-btn">
+                                <i class="fa-solid fa-play"></i>
+                                <a href="https://youtube.com" >Watch a Video</a>
+                            </div>
+                        </div>
+                    </div>
+                    <picture>
+                        <img src="Images/hero-img.png" alt="hero-image">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <!-- End home -->
+
+        <!-- Start chefs -->
+        <section class="chefs-cont" id="chefs">
+            <div class="container">
+                <div class="sec-header">
+                    <h2>
+                        CHEFS
+                    </h2>
+                    <p>
+                        Our <span>Proffesional</span>Chefs
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="cards flex-wrap">
+                        <div class="card">
+                            <div class="icons flex-col">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram-square"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <picture>
+                                <img src="Images/chefs/chefs-1.jpg" alt="chef1">
+                            </picture>
+                            <div class="card-cont">
+                                <h2 class="Name">Walter White</h2>
+                                <span class="position">Master Chef</span>
+                                <p class="card-desc">
+                                    Velit aut quia fugit et et. 
+                                    Dolorum ea voluptate vel tempore tenetur ipsa quae aut.
+                                    Ipsum exercitationem iure minima enim corporis et voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="icons flex-col">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram-square"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <picture>
+                                <img src="Images/chefs/chefs-2.jpg" alt="chef1">
+                            </picture>
+                            <div class="card-cont">
+                                <h2 class="Name">Sarah Jhonson</h2>
+                                <span class="position">Patissier</span>
+                                <p class="card-desc">
+                                    Quo esse repellendus quia id.
+                                    Est eum et accusantium pariatur fugit nihil minima suscipit corporis.
+                                     Voluptate sed quas reiciendis animi neque sapiente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="icons flex-col">
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram-square"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <picture>
+                                <img src="Images/chefs/chefs-3.jpg" alt="chef1">
+                            </picture>
+                            <div class="card-cont">
+                                <h2 class="Name">William Anderson</h2>
+                                <span class="position">Cook</span>
+                                <p class="card-desc">
+                                    Velit aut quia fugit et et. 
+                                    Dolorum ea voluptate vel tempore tenetur ipsa quae aut.
+                                    Ipsum exercitationem iure minima enim corporis et voluptate.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+      
+                </div>
+            </div>
+        </section>
+        <!-- End chefs -->
+
+        <!-- Start gallery -->
+        <section class="gallery-cont gray-sec" id="gallery">
+            <div class="container">
+                <div class="sec-header">
+                    <h2>
+                        GALLERY
+                    </h2>
+                    <p>
+                        Check  <span>Our Gallery</span>
+                    </p>
+                </div>
+                <div class="row flex-col-wrap">
+                    <picture class="pizza">
+                        <img src="Images/gallery/meal-1.jpg" alt="">
+                        <div>
+                          <h2>pizza</h2>
+                          <p>
+                                Hawaiian pizza with ham and pineapple
+                          </p>  
+                        </div>
+                    </picture>
+                    <picture class="Levitation-pizza">
+                        <img src="Images/gallery/meal-4.jpg" alt="">
+                        <div>
+                            <h2>Levitation pizza</h2>
+                            <p>
+                                Levitation pizza on black background.
+                            </p>  
+                          </div>
+                    </picture>
+                    <picture class="Beef-steaks">
+                        <img src="Images/gallery/meal-2.jpg" alt="">
+                        <div>
+                            <h2>Beef steaks</h2>
+                            <p>
+                                Tasty beef steaks flying above cast iron grate with fire flames.
+                            </p>  
+                          </div>
+                    </picture>
+                    <picture class="Frittata">
+                        <img src="Images/gallery/meal-7.jpg" alt="">
+                        <div>
+                            <h2>Frittata</h2>
+                            <p>
+                                Frittata or potato pie in a ceramic plate
+                            </p>  
+                          </div>
+                    </picture>
+                    <picture class="Burger">
+                        <img src="Images/gallery/meal-3.jpg" alt="">
+                        <div>
+                            <h2>Burger</h2>
+                            <p>
+                                grass fed bison hamburger with chips & beer
+                            </p>  
+                          </div>
+                    </picture>
+                    <picture class="Crispy-Fried-Chicken">
+                        <img src="Images/gallery/meal-5.jpg" alt="">
+                        <div>
+                            <h2>Crispy Fried Chicken</h2>
+                            <p>
+                                Golden brown chicken legs with a crunchy coating and juicy meat 
+                            </p>  
+                          </div>
+                    </picture>
+                    <picture class="Lyulya-kebab">
+                        <img src="Images/gallery/meal-6.jpg" alt="">
+                        <div>
+                            <h2>Lyulya kebab</h2>
+                            <p>
+                                Tender and juicy skewers of ground lamb or beef, flavored with aromatic spices and herbs
+                            </p>  
+                          </div>
+                    </picture>
+
+                </div>
+            </div>
+        </section>
+        <!-- End gallery -->
+        
+        <!-- Start contact -->
+        <section class="contact-cont" id="contact">
+            <div class="container">
+                <div class="sec-header">
+                    <h2>
+                        CONTACT
+                    </h2>
+                    <p>
+                        Need Help ? <span>Contact Us</span>
+                    </p>
+                </div>
+                <div class="row">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.77769368536!2d31.176062278592564!3d30.05946276120533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1710075865421!5m2!1sen!2seg"  style="border:0; height:21rem; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="our-info flex-wrap">
+                        <div class="info-bx flex">
+                            <i class="fa-regular fa-map"></i>
+                            <div class="info-bx-cont">
+                                <h3>
+                                    Our Address
+                                </h3>
+                                <p>
+                                    2 Ezzat Elzorkany street hadayk elkoba
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-bx flex">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="info-bx-cont">
+                                <h3>
+                                    Email Us
+                                </h3>
+                                <p>
+                                    Mohamedhamdyy55@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-bx flex">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="info-bx-cont">
+                                <h3>
+                                    Call Us
+                                </h3>
+                                <p>
+                                    +20 115 741 7179
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-bx flex">
+                            <i class="fa-solid fa-share-nodes"></i>    
+                            <div class="info-bx-cont">
+                                <h3>
+                                    Opening Hours
+                                </h3>
+                                <p>
+                                    <span>Mon-Sat</span>: 11AM - 23PM; <Span>Sunday</span>: Closed
+                                </p>
+                            </div>                    
+                        </div>
+                    </div>
+                    <form class="contact-form flex-col">
+                        <div class="flex">
+                            <input type="text" name="contact-name" id="contact-name" placeholder="Name">
+                            <input type="text" name="contact-mail" id="contact-mail" placeholder="Address">
+                        </div>
+                        <input type="text" name="contact-subject" id="contact-subject" placeholder="Subject">
+                        <textarea name="contact-message" id="contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+
+                        <input type="submit" value="Send message">
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End contact -->
+        
+    </main>
+
+    <!-- Start footer -->
+    <footer class="footer-cont" id="footer">
+        <div class="container">
+            <div class="row flex">
+                <div class="footer-desc flex-col">
+                    <div>
+                        <div class="footer-logo">
+                            <img src="Images/favicon.png">
+                            <span class="logo">Mealify</span>
+                        </div>
+                        <p>
+                            Mealify is a restaurant landing page that offers a delicious dining experience to its customers.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>
+                            Social Media
+                        </h2>
+                        <div class="footer-icons flex">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram-square"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-subscribe flex-col">
+                    <h2>
+                        Subscribe our Newsletter
+                    </h2>
+                    <p>
+                        Don't miss out on our latest menu updates and exclusive offers - 
+                        join our newsletter today and stay up-to-date with all things Mealify!
+                    </p>
+                    <div class="footer-send-mail">
+                        <form action="" class="flex">
+                            <input type="text" placeholder="Enter Your email Adress">
+                            <button>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>Subscribe</span>
+                            </button>
+                        </form>
+                    </div>
+                    <div>
+                        <h2>
+                            Quick Links
+                        </h2>
+                        <ul>
+                            <li> Menu</li>
+                            <li> About Us</li>
+                            <li> Testimonial</li>
+                            <li> Promo</li>
+                            <li> Promo</li>
+                            <li> Our Partners</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-get-in-touch flex-col">
+                    <h2>Get in Touch</h2>
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>
+                            A108 Adam Street, New York, NY 535022
+                        </p>
+                    </div>
+                    <div class="mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>
+                            mohamedhamdyy55@gmail.com
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>
+                            +20 1157417179
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+</body>
+
+</html>

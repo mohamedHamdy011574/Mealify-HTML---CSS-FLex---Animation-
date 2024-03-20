@@ -1,0 +1,156 @@
+@media screen and (min-width:1201px){
+    .container{
+        max-width: 1140px;
+    }
+    .gallery-cont .row{
+        height: 1000px;
+    }
+}
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+    .gallery-cont .row{
+        height: 845px;
+    }
+}
+@media screen and (max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+    .home-cont .row{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-cont .row > *{
+        width: 80%;
+    }
+    .home-cont .home-desc{
+        text-align: center;
+        align-items: center;
+    }
+    .cards {
+        gap: 50px;
+        align-items: center;
+    }
+    .cards > .card{
+        width: 40%;
+    }
+    .gallery-cont .row{
+        height: 1305px;
+    }
+    .gallery-cont .row picture{
+        width:300px;
+    }
+    .Burger{
+        order: 1;
+    }
+    .Frittata{
+        order: 2;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+    nav label[for="toggler"]{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        right: 0px;
+        visibility:hidden;
+        top: 0px;
+        padding: 50px;
+        z-index: 3;
+        background-color: white;
+        height: 100%;
+        padding-top: 150px;
+    }
+    .menu ul{
+        flex-direction: column;
+        gap:50px;
+        width: 100px;
+    }
+    nav input[id="toggler"]:checked ~ .menu{
+        visibility: visible;
+    }
+    nav input[id="toggler"]:checked ~ label .fa-bars{
+        transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        color: var(--color-primary);
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .cards > .card{
+        width: 80%;
+    }
+
+    .gallery-cont .row{
+        height: auto;
+    }
+
+    .gallery-cont .row picture{
+        width: 70%;
+    }
+
+    .our-info{
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+    .info-bx, .info-bx > :not(i){
+        width: 100%;
+    }
+    .contact-form div{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-form div input{
+        width: 100%;
+    }
+    .contact-form input[type="submit"] {
+        width: 150px;
+    }
+    footer .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .row > div, .footer-send-mail form > input, .footer-send-mail form > button{
+        width: 100%;
+    }
+    .footer-send-mail form{
+        flex-direction: column;
+    }
+    .footer-get-in-touch > div {
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:576px){
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .container{
+        width: 100%;
+    }
+    .btns{
+        flex-direction: column;
+    }
+    .logo , .fa-bars , .fa-moon{
+        font-size: 25px;
+    }
+    .info-bx {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-bx p{
+        font-size: 0.9rem;
+    }
+}
