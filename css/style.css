@@ -114,7 +114,7 @@ p{
     line-height: 1.6
 }
 
-section{
+section,footer{
     width: 100%;
 }
 
